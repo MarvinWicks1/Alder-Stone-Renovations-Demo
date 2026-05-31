@@ -5,12 +5,12 @@
 :root {
   --font-inter: Inter;
   --font-cormorant: "Cormorant Garamond";
-  --charcoal: #0f1c2e;
-  --warm-stone: #f7f6f2;
-  --soft-taupe: #d7dce4;
+  --charcoal: #172033;
+  --warm-stone: #f5f2ea;
+  --soft-taupe: #d6d5cb;
   --bronze: #596b4a;
-  --muted-slate: #5e6877;
-  --limestone: #eceff3;
+  --muted-slate: #5f6b76;
+  --limestone: #ece8dc;
   --white: #ffffff;
 }
 
@@ -24,7 +24,9 @@ html {
 
 body {
   margin: 0;
-  background: linear-gradient(180deg, #0f1c2e 0%, #15263a 34%, #f7f6f2 34%, #f7f6f2 100%);
+  background:
+    radial-gradient(circle at top left, rgba(89, 107, 74, 0.12), transparent 28rem),
+    linear-gradient(180deg, #eef0eb 0%, #f5f2ea 45%, #ece8dc 100%);
   color: var(--charcoal);
   font-family: var(--font-inter), Arial, sans-serif;
   line-height: 1.5;
@@ -58,21 +60,25 @@ textarea {
 }
 
 .premium-card {
-  border: 1px solid rgba(215, 220, 228, 0.92);
-  background: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 22px 70px rgba(15, 28, 46, 0.09);
+  border: 1px solid rgba(214, 213, 203, 0.92);
+  background: rgba(255, 255, 255, 0.86);
+  box-shadow: 0 22px 70px rgba(23, 32, 51, 0.08);
 }
 
 .material-swatch {
-  background: linear-gradient(135deg, rgba(15, 28, 46, 0.18), rgba(89, 107, 74, 0.2)), var(--limestone);
+  background:
+    linear-gradient(135deg, rgba(23, 32, 51, 0.16), rgba(89, 107, 74, 0.18)),
+    var(--limestone);
 }
 
 .blueprint-panel {
-  background: radial-gradient(circle at 18% 18%, rgba(89, 107, 74, 0.28), transparent 16rem), #0f1c2e;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(89, 107, 74, 0.22), transparent 16rem),
+    #172033;
 }
 
 .editorial-rule {
   height: 1px;
   width: 100%;
-  background: linear-gradient(90deg, transparent, rgba(89, 107, 74, 0.75), transparent);
+  background: linear-gradient(90deg, transparent, rgba(89, 107, 74, 0.65), transparent);
 }
