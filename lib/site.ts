@@ -217,3 +217,9 @@ export const trustCards = [
       "Large project cards and detail-led copy place the focus on workmanship, finishing touches and handover quality.",
   },
 ];
+export const accreditationPlaceholders = [
+  "FMB", 
+  "TrustMark", 
+  "Insurance"
+];
+
