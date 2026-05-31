@@ -2,28 +2,28 @@ import { accreditationPlaceholders } from "@/lib/site";
 
 const liveProofItems = [
   {
-    label: "Verified reviews",
-    title: "Real homeowner feedback",
+    label: "Reviews",
+    title: "What customers say",
     description:
-      "A live site should connect this section to genuine client reviews or approved testimonials supplied by the business.",
+      "Short, specific reviews help people understand what the job was like, not just how it looked at the end.",
   },
   {
-    label: "Project proof",
-    title: "Before and after stories",
+    label: "Project photos",
+    title: "Before, during and after",
     description:
-      "Project galleries can show the original space, the renovation process and the finished result with clear captions.",
+      "A good gallery shows the starting point, the messy middle and the finished room, with enough detail to be useful.",
   },
   {
-    label: "Trade trust",
-    title: "Memberships and insurance",
+    label: "Credentials",
+    title: "Insurance and memberships",
     description:
-      "Accreditations, guarantees and insurance details should only be shown when verified and supplied by the real client.",
+      "If a business has trade memberships, guarantees or insurance details, they should be easy to find and kept accurate.",
   },
   {
-    label: "Local confidence",
-    title: "Areas and project types",
+    label: "Local fit",
+    title: "Where the work happens",
     description:
-      "Clear location and service information helps homeowners understand whether the company is the right fit before enquiring.",
+      "Service areas and project types help visitors quickly work out whether it is worth getting in touch.",
   },
 ];
 
@@ -42,18 +42,16 @@ export function PremiumProof() {
       <div className="container-shell grid gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-start">
         <div className="border border-soft-taupe bg-charcoal p-8 text-white md:p-10">
           <p className="text-sm font-semibold uppercase tracking-[0.28em] text-sage">
-            Premium proof system
+            Trust signals
           </p>
           <h2
             id="premium-proof-title"
             className="mt-4 font-heading text-4xl font-bold leading-[0.95] tracking-[-0.035em] md:text-6xl"
           >
-            Authority should be visible before the enquiry.
+            People want proof before they ask for a quote.
           </h2>
           <p className="mt-5 text-base leading-7 text-white/72">
-            This demo does not invent reviews, memberships or awards. Instead,
-            it shows the proof blocks a live premium renovation site should
-            connect to verified sources.
+            For a real renovation company, this is where genuine reviews, project photos and verified credentials would sit. This demo keeps those areas clearly labelled instead of making anything up.
           </p>
           <div
             className="mt-8 grid gap-3 sm:grid-cols-3"
@@ -69,9 +67,7 @@ export function PremiumProof() {
             ))}
           </div>
           <p className="mt-4 text-xs leading-5 text-white/55">
-            Logo spaces are placeholders only. A real build would use verified
-            trade memberships supplied by the client, such as FMB or TrustMark
-            where applicable.
+            Placeholder positions only. A live site should use verified details supplied by the business.
           </p>
         </div>
 
@@ -97,10 +93,10 @@ export function PremiumProof() {
 
           <article className="border border-soft-taupe bg-warm-stone p-6 md:p-8">
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-olive">
-              Photography edit service
+              Project photos
             </p>
             <h3 className="mt-4 font-heading text-3xl font-bold leading-none tracking-[-0.035em] text-charcoal">
-              Make real project images feel cohesive.
+              Make real job photos easier to follow.
             </h3>
             <div className="mt-6 grid gap-3 md:grid-cols-3">
               {photographyWorkflow.map((step) => (
@@ -113,9 +109,7 @@ export function PremiumProof() {
               ))}
             </div>
             <p className="mt-5 text-sm leading-6 text-muted-slate">
-              On a live client website, this area would explain how existing job
-              photos are cropped, colour-balanced and sequenced so the whole
-              project gallery feels premium rather than mismatched.
+              Even ordinary phone photos can work better when they are cropped consistently, ordered sensibly and given short captions.
             </p>
           </article>
         </div>
