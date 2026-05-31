@@ -13,14 +13,13 @@ export function ProjectCard({
   location,
   description,
   features = [],
-  palette = "from-limestone via-warm-stone to-olive/60",
+  palette = "from-limestone via-chalk to-olive/55",
 }: ProjectCardProps) {
   return (
     <article className="group overflow-hidden border border-soft-taupe bg-white shadow-fine transition duration-300 hover:-translate-y-1 hover:shadow-editorial">
       <div className={`relative h-80 overflow-hidden bg-gradient-to-br ${palette}`}>
-        <div className="absolute inset-0 opacity-65 [background-image:linear-gradient(90deg,rgba(21,26,24,.12)_1px,transparent_1px),linear-gradient(rgba(21,26,24,.10)_1px,transparent_1px)] [background-size:46px_46px]" />
-        <div className="absolute left-7 top-7 h-36 w-[68%] border border-white/60 bg-white/35 shadow-2xl shadow-charcoal/10 backdrop-blur-sm" />
-        <div className="absolute bottom-7 left-7 right-7 border border-white/55 bg-charcoal/88 p-5 text-white backdrop-blur-sm">
+        <div className="absolute left-7 top-7 h-36 w-[68%] border border-white/70 bg-white/45 shadow-2xl shadow-charcoal/10 backdrop-blur-sm" />
+        <div className="absolute bottom-7 left-7 right-7 border border-white/45 bg-charcoal/90 p-5 text-white backdrop-blur-sm">
           <div className="flex items-center justify-between gap-4 text-xs font-semibold uppercase tracking-[0.22em] text-white/65">
             <span>{type}</span>
             <span>{location}</span>
@@ -43,7 +42,7 @@ export function ProjectCard({
             {features.map((feature) => (
               <span
                 key={feature}
-                className="border border-soft-taupe bg-warm-stone px-3 py-2 text-xs font-semibold text-charcoal/75"
+                className="border border-soft-taupe bg-chalk px-3 py-2 text-xs font-semibold text-charcoal/75"
               >
                 {feature}
               </span>
