@@ -5,12 +5,12 @@
 :root {
   --font-inter: Inter;
   --font-cormorant: "Cormorant Garamond";
-  --charcoal: #151a18;
-  --warm-stone: #f3f0e8;
-  --soft-taupe: #cfc8ba;
+  --charcoal: #0f1c2e;
+  --warm-stone: #f7f6f2;
+  --soft-taupe: #d7dce4;
   --bronze: #596b4a;
-  --muted-slate: #66706a;
-  --limestone: #e7e1d3;
+  --muted-slate: #5e6877;
+  --limestone: #eceff3;
   --white: #ffffff;
 }
 
@@ -24,34 +24,10 @@ html {
 
 body {
   margin: 0;
-  background:
-    radial-gradient(
-      circle at 10% 0%,
-      rgba(89, 107, 74, 0.13),
-      transparent 28rem
-    ),
-    radial-gradient(
-      circle at 90% 10%,
-      rgba(21, 26, 24, 0.11),
-      transparent 30rem
-    ),
-    linear-gradient(180deg, #faf8f1 0%, var(--warm-stone) 46%, #e8e1d5 100%);
+  background: linear-gradient(180deg, #0f1c2e 0%, #15263a 34%, #f7f6f2 34%, #f7f6f2 100%);
   color: var(--charcoal);
   font-family: var(--font-inter), Arial, sans-serif;
   line-height: 1.5;
-}
-
-body::before {
-  pointer-events: none;
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  opacity: 0.16;
-  background-image:
-    linear-gradient(90deg, rgba(21, 26, 24, 0.08) 1px, transparent 1px),
-    linear-gradient(rgba(21, 26, 24, 0.06) 1px, transparent 1px);
-  background-size: 120px 120px;
 }
 
 a {
@@ -82,41 +58,21 @@ textarea {
 }
 
 .premium-card {
-  border: 1px solid rgba(207, 200, 186, 0.92);
-  background: rgba(255, 255, 255, 0.82);
-  box-shadow: 0 22px 70px rgba(21, 26, 24, 0.09);
+  border: 1px solid rgba(215, 220, 228, 0.92);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 22px 70px rgba(15, 28, 46, 0.09);
 }
 
 .material-swatch {
-  background:
-    linear-gradient(135deg, rgba(21, 26, 24, 0.22), rgba(89, 107, 74, 0.24)),
-    repeating-linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 0.26) 0 9px,
-      rgba(21, 26, 24, 0.06) 9px 18px
-    ),
-    var(--limestone);
+  background: linear-gradient(135deg, rgba(15, 28, 46, 0.18), rgba(89, 107, 74, 0.2)), var(--limestone);
 }
 
 .blueprint-panel {
-  background:
-    linear-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.055) 1px, transparent 1px),
-    radial-gradient(
-      circle at 18% 18%,
-      rgba(89, 107, 74, 0.34),
-      transparent 16rem
-    ),
-    #151a18;
-  background-size:
-    38px 38px,
-    38px 38px,
-    auto,
-    auto;
+  background: radial-gradient(circle at 18% 18%, rgba(89, 107, 74, 0.28), transparent 16rem), #0f1c2e;
 }
 
 .editorial-rule {
   height: 1px;
   width: 100%;
-  background: linear-gradient(90deg, transparent, rgba(89, 107, 74, 0.7), transparent);
+  background: linear-gradient(90deg, transparent, rgba(89, 107, 74, 0.75), transparent);
 }
