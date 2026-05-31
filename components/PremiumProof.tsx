@@ -1,8 +1,37 @@
-import {
-  accreditationPlaceholders,
-  liveProofItems,
-  photographyWorkflow,
-} from "@/lib/site";
+import { accreditationPlaceholders } from "@/lib/site";
+
+const liveProofItems = [
+  {
+    label: "Verified reviews",
+    title: "Real homeowner feedback",
+    description:
+      "A live site should connect this section to genuine client reviews or approved testimonials supplied by the business.",
+  },
+  {
+    label: "Project proof",
+    title: "Before and after stories",
+    description:
+      "Project galleries can show the original space, the renovation process and the finished result with clear captions.",
+  },
+  {
+    label: "Trade trust",
+    title: "Memberships and insurance",
+    description:
+      "Accreditations, guarantees and insurance details should only be shown when verified and supplied by the real client.",
+  },
+  {
+    label: "Local confidence",
+    title: "Areas and project types",
+    description:
+      "Clear location and service information helps homeowners understand whether the company is the right fit before enquiring.",
+  },
+];
+
+const photographyWorkflow = [
+  "Crop consistently",
+  "Balance colour",
+  "Sequence clearly",
+];
 
 export function PremiumProof() {
   return (
@@ -12,7 +41,7 @@ export function PremiumProof() {
     >
       <div className="container-shell grid gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-start">
         <div className="border border-soft-taupe bg-charcoal p-8 text-white md:p-10">
-          <p className="text-sm font-semibold uppercase tracking-[0.28em] text-soft-taupe">
+          <p className="text-sm font-semibold uppercase tracking-[0.28em] text-sage">
             Premium proof system
           </p>
           <h2
@@ -51,9 +80,9 @@ export function PremiumProof() {
             {liveProofItems.map((item) => (
               <article
                 key={item.title}
-                className="border border-soft-taupe bg-white p-6 shadow-[0_16px_45px_rgba(24,32,40,0.06)]"
+                className="border border-soft-taupe bg-white p-6 shadow-fine"
               >
-                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-bronze">
+                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-olive">
                   {item.label}
                 </p>
                 <h3 className="mt-4 font-heading text-3xl font-bold leading-none tracking-[-0.035em] text-charcoal">
@@ -67,7 +96,7 @@ export function PremiumProof() {
           </div>
 
           <article className="border border-soft-taupe bg-warm-stone p-6 md:p-8">
-            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-bronze">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-olive">
               Photography edit service
             </p>
             <h3 className="mt-4 font-heading text-3xl font-bold leading-none tracking-[-0.035em] text-charcoal">
