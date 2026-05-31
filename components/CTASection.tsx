@@ -11,7 +11,7 @@ export function CTASection({
 }) {
   return (
     <section className="py-16 md:py-20">
-      <div className="container-shell overflow-hidden rounded-[2.25rem] bg-charcoal text-white shadow-2xl shadow-charcoal/15">
+      <div className="container-shell overflow-hidden rounded-sm bg-charcoal text-white shadow-2xl shadow-charcoal/15">
         <div className="blueprint-panel px-6 py-12 text-center md:px-14 md:py-16">
           <p className="text-sm font-semibold uppercase tracking-[0.28em] text-soft-taupe">
             Project enquiry
@@ -22,7 +22,10 @@ export function CTASection({
           <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-white/72">
             {copy}
           </p>
-          <Link href="/contact" className="mt-8 inline-flex rounded-full bg-white px-7 py-4 text-sm font-semibold text-charcoal transition hover:bg-soft-taupe">
+          <Link
+            href="/contact"
+            className="mt-8 inline-flex rounded-none bg-white px-7 py-4 text-sm font-semibold text-charcoal transition hover:bg-soft-taupe"
+          >
             {button}
           </Link>
         </div>

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Lexend } from "next/font/google";
+import { Cormorant_Garamond, Inter } from "next/font/google";
 import type { ReactNode } from "react";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
@@ -7,7 +7,11 @@ import { siteConfig } from "@/lib/site";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const lexend = Lexend({ subsets: ["latin"], variable: "--font-lexend" });
+const cormorant = Cormorant_Garamond({
+  subsets: ["latin"],
+  variable: "--font-cormorant",
+  weight: ["500", "600", "700"],
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -40,7 +44,7 @@ export default function RootLayout({
 }: Readonly<{ children: ReactNode }>) {
   return (
     <html lang="en-GB">
-      <body className={`${inter.variable} ${lexend.variable} antialiased`}>
+      <body className={`${inter.variable} ${cormorant.variable} antialiased`}>
         <Header />
         <main>{children}</main>
         <Footer />

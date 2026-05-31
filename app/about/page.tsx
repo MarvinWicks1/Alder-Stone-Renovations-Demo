@@ -23,21 +23,35 @@ export default function AboutPage() {
             title="A fictional demo brand with a more renovation-led identity."
             description="The brand direction now feels closer to a calm, craft-led Cheshire renovation company instead of feeling like a generic portfolio template."
           />
-          <div className="premium-card rounded-[2rem] p-8 text-base leading-8 text-muted-slate md:p-10">
+          <div className="premium-card rounded-sm p-8 text-base leading-8 text-muted-slate md:p-10">
             <p>
-              Alder & Stone Renovations is a fictional demo brand created by VCUK Web Services to show how a premium local trade website could be structured. The layout is designed around the kind of information homeowners look for before choosing a renovation company: clear services, project examples, process, trust signals and simple enquiry routes.
+              Alder & Stone Renovations is a fictional demo brand created by
+              VCUK Web Services to show how a premium local trade website could
+              be structured. The layout is designed around the kind of
+              information homeowners look for before choosing a renovation
+              company: clear services, project examples, process, trust signals
+              and simple enquiry routes.
             </p>
             <p className="mt-5">
-              The concept uses warm materials, architectural spacing, crafted placeholder visuals and transparent demo labelling so the site can demonstrate premium website building without pretending to be a real client project.
+              The concept uses warm materials, architectural spacing, crafted
+              placeholder visuals and transparent demo labelling so the site can
+              demonstrate premium website building without pretending to be a
+              real client project.
             </p>
             <div className="mt-8 grid gap-3 sm:grid-cols-2">
               {values.map((value) => (
-                <span key={value} className="rounded-full border border-soft-taupe bg-white px-4 py-3 text-sm font-semibold text-charcoal">
+                <span
+                  key={value}
+                  className="rounded-none border border-soft-taupe bg-white px-4 py-3 text-sm font-semibold text-charcoal"
+                >
                   {value}
                 </span>
               ))}
             </div>
-            <Link href="/projects" className="mt-8 inline-flex rounded-full bg-bronze px-6 py-3 text-sm font-semibold text-white transition hover:bg-charcoal">
+            <Link
+              href="/projects"
+              className="mt-8 inline-flex rounded-none bg-bronze px-6 py-3 text-sm font-semibold text-white transition hover:bg-charcoal"
+            >
               View the example projects
             </Link>
           </div>

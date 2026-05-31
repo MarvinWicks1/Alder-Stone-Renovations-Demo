@@ -17,10 +17,14 @@ export default function ProcessPage() {
               title="Reducing uncertainty before a customer enquires."
               description="For higher-value home projects, the process matters as much as the final finish. This page shows how a trade business can make customers feel informed before, during and after the project."
             />
-            <div className="mt-8 rounded-[2rem] bg-charcoal p-6 text-white">
-              <p className="font-heading text-2xl font-semibold tracking-[-0.045em]">Trust copy</p>
+            <div className="mt-8 rounded-sm bg-charcoal p-6 text-white">
+              <p className="font-heading text-2xl font-semibold tracking-[-0.045em]">
+                Trust copy
+              </p>
               <p className="mt-3 text-sm leading-6 text-white/72">
-                The goal is to make the customer feel informed before, during and after the project with clear communication, home protection and realistic expectations.
+                The goal is to make the customer feel informed before, during
+                and after the project with clear communication, home protection
+                and realistic expectations.
               </p>
             </div>
           </div>

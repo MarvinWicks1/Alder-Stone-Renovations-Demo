@@ -66,7 +66,10 @@ export default function Home() {
               title="A clear process from first visit to final handover."
               description="The goal is to make the customer feel informed before, during and after the project."
             />
-            <Link href="/contact" className="mt-7 inline-flex rounded-full bg-bronze px-6 py-3 text-sm font-semibold text-white transition hover:bg-charcoal">
+            <Link
+              href="/contact"
+              className="mt-7 inline-flex rounded-none bg-bronze px-6 py-3 text-sm font-semibold text-white transition hover:bg-charcoal"
+            >
               Start your project enquiry
             </Link>
           </div>
@@ -76,13 +79,18 @@ export default function Home() {
 
       <section className="py-16">
         <div className="container-shell grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
-          <div className="premium-card rounded-[2rem] p-8 md:p-10">
-            <p className="text-sm font-semibold uppercase tracking-[0.26em] text-bronze">Example layout</p>
+          <div className="premium-card rounded-sm p-8 md:p-10">
+            <p className="text-sm font-semibold uppercase tracking-[0.26em] text-bronze">
+              Example layout
+            </p>
             <h2 className="mt-4 font-heading text-3xl font-semibold tracking-[-0.055em] md:text-5xl">
               Review section placeholder.
             </h2>
             <p className="mt-5 text-base leading-7 text-muted-slate">
-              On a live client website, this section would show real homeowner testimonials, project photos and trust signals such as insurance, guarantees or trade qualifications. This demo intentionally avoids invented reviews or claims.
+              On a live client website, this section would show real homeowner
+              testimonials, project photos and trust signals such as insurance,
+              guarantees or trade qualifications. This demo intentionally avoids
+              invented reviews or claims.
             </p>
           </div>
           <div className="grid gap-4">
@@ -91,9 +99,17 @@ export default function Home() {
               "Before and after photos",
               "Guarantees and qualifications",
             ].map((item) => (
-              <article key={item} className="rounded-[1.5rem] border border-soft-taupe bg-white p-5">
-                <p className="font-heading text-xl font-semibold tracking-[-0.045em] text-charcoal">{item}</p>
-                <p className="mt-2 text-sm leading-6 text-muted-slate">Reserved for verified proof supplied by a real client business.</p>
+              <article
+                key={item}
+                className="rounded-sm border border-soft-taupe bg-white p-5"
+              >
+                <p className="font-heading text-xl font-semibold tracking-[-0.045em] text-charcoal">
+                  {item}
+                </p>
+                <p className="mt-2 text-sm leading-6 text-muted-slate">
+                  Reserved for verified proof supplied by a real client
+                  business.
+                </p>
               </article>
             ))}
           </div>
@@ -102,15 +118,25 @@ export default function Home() {
 
       <section className="bg-white/70 py-16">
         <div className="container-shell grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
-          <div className="rounded-[2rem] bg-charcoal p-8 text-white md:p-10">
-            <p className="text-sm font-semibold uppercase tracking-[0.26em] text-soft-taupe">About preview</p>
-            <h2 className="mt-4 font-heading text-3xl font-semibold tracking-[-0.055em]">Careful renovation work, clearly explained.</h2>
+          <div className="rounded-sm bg-charcoal p-8 text-white md:p-10">
+            <p className="text-sm font-semibold uppercase tracking-[0.26em] text-soft-taupe">
+              About preview
+            </p>
+            <h2 className="mt-4 font-heading text-3xl font-semibold tracking-[-0.055em]">
+              Careful renovation work, clearly explained.
+            </h2>
           </div>
           <div>
             <p className="text-base leading-8 text-muted-slate">
-              This demo brand is built around the kind of details homeowners look for before choosing a renovation company: clear communication, tidy work, realistic scheduling and a quality finish.
+              This demo brand is built around the kind of details homeowners
+              look for before choosing a renovation company: clear
+              communication, tidy work, realistic scheduling and a quality
+              finish.
             </p>
-            <Link href="/process" className="mt-6 inline-flex rounded-full border border-soft-taupe bg-white px-6 py-3 text-sm font-semibold text-charcoal transition hover:border-bronze hover:text-bronze">
+            <Link
+              href="/process"
+              className="mt-6 inline-flex rounded-none border border-soft-taupe bg-white px-6 py-3 text-sm font-semibold text-charcoal transition hover:border-bronze hover:text-bronze"
+            >
               Learn about the process
             </Link>
           </div>
