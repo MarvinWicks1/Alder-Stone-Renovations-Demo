@@ -12,13 +12,13 @@ export default function ContactPage() {
           <div>
             <SectionHeader
               align="left"
-              eyebrow="Request a project visit"
-              title="A qualified enquiry form for serious renovation projects."
-              description="Use this demo form layout to show how a premium trade website can qualify project type, budget, rough timeline and enquiry source before the first conversation."
+              eyebrow="Contact"
+              title="Tell us what you are thinking about changing."
+              description="A few details about the room, location and rough budget are usually enough to decide whether a visit makes sense."
             />
             <div className="mt-10 rounded-sm bg-charcoal p-6 text-white shadow-2xl shadow-charcoal/10">
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-soft-taupe">
-                Demo contact details
+                Contact details
               </p>
               <div className="mt-5 grid gap-3 text-sm text-white/75">
                 <span>Email: {siteConfig.email}</span>
@@ -27,9 +27,7 @@ export default function ContactPage() {
               </div>
             </div>
             <p className="mt-5 text-sm leading-6 text-muted-slate">
-              This page is part of a fictional demo website. On a real
-              renovation website, contact details and form routing would be
-              replaced with verified business information.
+              This is a demo contact page. On a live site, these details would be replaced with the real business email, phone number and form routing.
             </p>
           </div>
           <ContactForm />
