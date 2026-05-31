@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { CTASection } from "@/components/CTASection";
 import { DemoNotice } from "@/components/DemoNotice";
+import { DemoPhotoGallery } from "@/components/DemoPhotoGallery";
 import { Hero } from "@/components/Hero";
-import { PremiumProof } from "@/components/PremiumProof";
 import { ProcessSteps } from "@/components/ProcessSteps";
 import { ProjectCard } from "@/components/ProjectCard";
+import { SampleReviews } from "@/components/SampleReviews";
 import { SectionHeader } from "@/components/SectionHeader";
 import { ServiceCard } from "@/components/ServiceCard";
 import { TrustCards } from "@/components/TrustCards";
@@ -46,6 +47,8 @@ export default function Home() {
         </div>
       </section>
 
+      <DemoPhotoGallery />
+
       <section className="py-16">
         <div className="container-shell grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
           <SectionHeader
@@ -78,50 +81,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16">
-        <div className="container-shell grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
-          <div className="premium-card rounded-sm p-8 md:p-10">
-            <p className="text-sm font-semibold uppercase tracking-[0.26em] text-bronze">
-              Example layout
-            </p>
-            <h2 className="mt-4 font-heading text-3xl font-semibold tracking-[-0.055em] md:text-5xl">
-              Review section placeholder.
-            </h2>
-            <p className="mt-5 text-base leading-7 text-muted-slate">
-              On a live client website, this section would show real homeowner
-              testimonials, project photos and trust signals such as insurance,
-              guarantees or trade qualifications. This demo intentionally avoids
-              invented reviews or claims.
-            </p>
-            <Link
-              href="/process"
-              className="mt-6 inline-flex rounded-none border border-soft-taupe bg-white px-6 py-3 text-sm font-semibold text-charcoal transition hover:border-bronze hover:text-bronze"
-            >
-              Learn about the process
-            </Link>
-          </div>
-          <div className="grid gap-4">
-            {[
-              "Real reviews",
-              "Before and after photos",
-              "Guarantees and qualifications",
-            ].map((item) => (
-              <article
-                key={item}
-                className="rounded-sm border border-soft-taupe bg-white p-5"
-              >
-                <p className="font-heading text-xl font-semibold tracking-[-0.045em] text-charcoal">
-                  {item}
-                </p>
-                <p className="mt-2 text-sm leading-6 text-muted-slate">
-                  Reserved for verified proof supplied by a real client
-                  business.
-                </p>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
+      <SampleReviews />
 
       <section className="bg-white/70 py-16">
         <div className="container-shell grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
