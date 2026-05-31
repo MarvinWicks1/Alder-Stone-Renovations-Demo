@@ -19,9 +19,9 @@ export default function ProjectsPage() {
       <section className="reveal-on-scroll py-16 md:py-24">
         <div className="container-shell">
           <SectionHeader
-            eyebrow="Example renovation projects"
-            title="A polished gallery for the type of work a premium trade business wants more of."
-            description="A project gallery helps a premium trade business show quality, detail and the type of work it wants more of. These are fictional examples with labelled placeholder visuals."
+            eyebrow="Projects"
+            title="A gallery built around finish, layout and practical detail."
+            description="Homeowners want to see more than a pretty final photo. A strong project page shows what changed, where the value was added and what kind of work the company is best suited to."
           />
           <div
             className="mt-8 flex flex-wrap justify-center gap-3"
