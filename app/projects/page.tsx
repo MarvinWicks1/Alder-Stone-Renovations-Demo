@@ -5,11 +5,10 @@ import { SectionHeader } from "@/components/SectionHeader";
 import { projects } from "@/lib/site";
 
 const chips = [
-  "All examples",
   "Kitchens",
   "Bathrooms",
-  "Conversions",
   "Refurbishments",
+  "Conversions",
   "Joinery",
 ];
 
@@ -20,15 +19,18 @@ export default function ProjectsPage() {
       <section className="py-16 md:py-24">
         <div className="container-shell">
           <SectionHeader
-            eyebrow="Projects"
-            title="Fictional project examples with filter-style browsing."
-            description="These chips demonstrate a portfolio interface. They are visual examples only and do not filter real client work."
+            eyebrow="Example renovation projects"
+            title="A polished gallery for the type of work a premium trade business wants more of."
+            description="A project gallery helps a premium trade business show quality, detail and the type of work it wants more of. These are fictional examples with labelled placeholder visuals."
           />
-          <div className="mt-8 flex flex-wrap justify-center gap-3">
+          <div
+            className="mt-8 flex flex-wrap justify-center gap-3"
+            aria-label="Example project categories"
+          >
             {chips.map((chip) => (
               <span
                 key={chip}
-                className="rounded-full border border-soft-taupe bg-white px-4 py-2 text-sm font-semibold text-muted-slate"
+                className="rounded-none border border-soft-taupe bg-white px-4 py-2 text-sm font-semibold text-muted-slate shadow-sm"
               >
                 {chip}
               </span>
@@ -41,7 +43,7 @@ export default function ProjectsPage() {
           </div>
         </div>
       </section>
-      <CTASection title="Create a project gallery that uses only genuine proof when live." />
+      <CTASection />
     </>
   );
 }
