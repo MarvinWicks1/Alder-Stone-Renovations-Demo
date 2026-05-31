@@ -29,13 +29,13 @@ export function ProjectCard({
             className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
           />
         ) : null}
-        <div className="absolute inset-0 bg-gradient-to-t from-charcoal/88 via-charcoal/18 to-transparent" />
-        <div className="absolute bottom-7 left-7 right-7 border border-white/35 bg-charcoal/82 p-5 text-white backdrop-blur-sm">
-          <div className="flex items-center justify-between gap-4 text-xs font-semibold uppercase tracking-[0.22em] text-white/65">
+        <div className="absolute inset-0 bg-gradient-to-t from-charcoal/48 via-charcoal/6 to-transparent" />
+        <div className="absolute bottom-5 left-5 right-5 border border-white/35 bg-charcoal/58 p-5 text-white shadow-2xl backdrop-blur-[2px]">
+          <div className="flex items-center justify-between gap-4 text-xs font-semibold uppercase tracking-[0.22em] text-white/75">
             <span>{type}</span>
             <span>{location}</span>
           </div>
-          <p className="mt-4 font-heading text-3xl font-bold leading-none tracking-[-0.035em]">
+          <p className="mt-4 font-heading text-3xl font-bold leading-none tracking-[-0.035em] drop-shadow-lg">
             {title}
           </p>
         </div>
