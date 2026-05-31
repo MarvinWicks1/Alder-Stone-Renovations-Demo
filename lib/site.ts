@@ -1,7 +1,8 @@
 export const siteConfig = {
   name: "Alder & Stone Renovations",
-  url: "https://alder-stone-renovations-demo.example.com",
+  url: "https://alder-stone-renovations-demo.vercel.app",
   creator: "VCUK Web Services",
+  creatorUrl: "https://vcukwebservices.co.uk",
   email: "hello@example.co.uk",
   phone: "01234 000000",
   area: "Cheshire and surrounding areas",
@@ -111,40 +112,40 @@ export const services = [
 
 export const projects = [
   {
-    title: "Oak & Quartz Kitchen Renovation",
+    title: "Oak & Limestone Kitchen Renovation",
     type: "Kitchens",
     location: "Cheshire",
     description:
-      "A complete kitchen refit concept with layout improvements, custom storage and warm lighting.",
-    features: ["Quartz surfaces", "Oak details", "Lighting plan", "Improved storage"],
-    palette: "from-stone-200 via-warm-stone to-bronze/70",
+      "A complete kitchen refit concept with layout improvements, custom storage and a calm natural-material palette.",
+    features: ["Stone surfaces", "Oak details", "Lighting plan", "Improved storage"],
+    palette: "from-limestone via-warm-stone to-olive/70",
   },
   {
-    title: "Marble-Effect Bathroom Suite",
+    title: "Graphite Bathroom Suite",
     type: "Bathrooms",
     location: "Northwich",
     description:
-      "A full bathroom transformation concept with walk-in shower, vanity, tiling and lighting.",
-    features: ["Walk-in shower", "Tiling", "Vanity unit", "Ambient lighting"],
-    palette: "from-white via-soft-taupe to-charcoal/30",
+      "A full bathroom transformation concept with walk-in shower, vanity, tiling and layered lighting.",
+    features: ["Walk-in shower", "Large-format tiling", "Vanity unit", "Ambient lighting"],
+    palette: "from-white via-limestone to-graphite/35",
   },
   {
-    title: "Garage to Home Office Conversion",
+    title: "Garage to Studio Conversion",
     type: "Conversions",
     location: "Warrington",
     description:
-      "An unused garage converted in concept into a warm, clean home office and utility space.",
-    features: ["Insulation", "Office layout", "Utility storage", "Lighting"],
-    palette: "from-charcoal/20 via-warm-stone to-bronze/60",
+      "An unused garage converted in concept into a warm, quiet studio and utility space.",
+    features: ["Insulation", "Studio layout", "Utility storage", "Task lighting"],
+    palette: "from-graphite/20 via-warm-stone to-sage/70",
   },
   {
     title: "Period Home Refurbishment",
     type: "Refurbishments",
     location: "Chester",
     description:
-      "A careful refurbishment concept balancing modern usability with existing character.",
+      "A careful refurbishment concept balancing modern usability with existing architectural character.",
     features: ["Joinery", "Decoration", "Room updates", "Character details"],
-    palette: "from-soft-taupe via-white to-charcoal/20",
+    palette: "from-soft-taupe via-white to-olive/30",
   },
   {
     title: "Utility Room & Boot Room",
@@ -153,7 +154,7 @@ export const projects = [
     description:
       "A functional upgrade concept for a busy family home with durable finishes and fitted storage.",
     features: ["Fitted storage", "Durable materials", "Family layout", "Practical finish"],
-    palette: "from-warm-stone via-soft-taupe to-bronze/50",
+    palette: "from-warm-stone via-limestone to-olive/55",
   },
 ];
 
@@ -217,9 +218,9 @@ export const trustCards = [
       "Large project cards and detail-led copy place the focus on workmanship, finishing touches and handover quality.",
   },
 ];
-export const accreditationPlaceholders = [
-  "FMB", 
-  "TrustMark", 
-  "Insurance"
-];
 
+export const accreditationPlaceholders = [
+  "FMB",
+  "TrustMark",
+  "Insurance",
+];
