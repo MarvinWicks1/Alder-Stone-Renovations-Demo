@@ -233,9 +233,3 @@ export const sampleReviews = [
       "The final details matter: trims, joins, lighting, storage and how the room feels once it is back in use.",
   },
 ];
-
-export const accreditationPlaceholders = [
-  "FMB",
-  "TrustMark",
-  "Insurance",
-];
