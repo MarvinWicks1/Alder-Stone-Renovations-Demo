@@ -1,10 +1,10 @@
 import Link from "next/link";
 
 const trustPoints = [
-  "Detailed written quotes",
-  "Project-managed renovations",
-  "Clean, respectful work",
-  "Local Cheshire team",
+  "Written quotes before work starts",
+  "Planned room-by-room projects",
+  "Tidy, respectful working habits",
+  "Cheshire and nearby areas",
 ];
 
 export function Hero() {
@@ -19,10 +19,10 @@ export function Hero() {
             <span className="hidden h-px w-24 bg-olive/35 sm:block" aria-hidden="true" />
           </div>
           <h1 className="mt-7 max-w-4xl font-heading text-5xl font-bold leading-[0.96] tracking-[-0.04em] text-charcoal sm:text-6xl md:text-8xl">
-            Architectural renovations for calm, considered Cheshire homes.
+            Kitchens, bathrooms and renovations with a calmer finish.
           </h1>
           <p className="mt-7 max-w-2xl text-lg leading-8 text-muted-slate">
-            Alder & Stone Renovations is a fictional demo concept shaped around material detail, careful sequencing and premium renovation enquiries for Cheshire homes.
+            Thoughtful renovation work for Cheshire homes, with clear quotes, careful planning and a finish that suits the way you actually live.
           </p>
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
             <Link
@@ -61,7 +61,7 @@ export function Hero() {
               <div className="grid h-full min-h-[520px] grid-rows-[auto_1fr_auto] border border-white/15 bg-white/5 p-5 backdrop-blur-sm">
                 <div className="flex items-center justify-between gap-4">
                   <span className="bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-charcoal">
-                    Project study
+                    Kitchen refit
                   </span>
                   <span className="text-xs uppercase tracking-[0.24em] text-white/60">
                     Cheshire
@@ -87,10 +87,10 @@ export function Hero() {
                 </div>
                 <div>
                   <p className="font-heading text-3xl font-semibold tracking-[-0.05em]">
-                    Material-led portfolio system
+                    Natural materials, better storage and softer lighting.
                   </p>
                   <p className="mt-3 max-w-md text-sm leading-6 text-white/70">
-                    A more architectural visual system for project photography, finish samples and before-and-after stories on a live renovation website.
+                    A visual area like this can show the quality of the finish before a visitor reads through the details.
                   </p>
                 </div>
               </div>
