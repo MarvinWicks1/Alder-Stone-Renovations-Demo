@@ -9,16 +9,25 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        charcoal: "#182028",
-        "warm-stone": "#F6F2EA",
-        "soft-taupe": "#D8D0C4",
-        bronze: "#8A6F3C",
-        "muted-slate": "#58616B",
+        charcoal: "#151A18",
+        "warm-stone": "#F3F0E8",
+        "soft-taupe": "#CFC8BA",
+        bronze: "#596B4A",
+        "muted-slate": "#66706A",
+        limestone: "#E7E1D3",
+        graphite: "#151A18",
+        olive: "#596B4A",
+        sage: "#A8B09A",
+        chalk: "#FAF8F1",
         white: "#FFFFFF",
       },
       fontFamily: {
         sans: ["var(--font-inter)", "Arial", "sans-serif"],
         heading: ["var(--font-cormorant)", "Georgia", "serif"],
+      },
+      boxShadow: {
+        editorial: "0 28px 80px rgba(21, 26, 24, 0.14)",
+        fine: "0 16px 45px rgba(21, 26, 24, 0.08)",
       },
     },
   },
