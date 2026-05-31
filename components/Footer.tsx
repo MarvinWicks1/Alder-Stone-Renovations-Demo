@@ -1,8 +1,6 @@
 import Link from "next/link";
 import { accreditationPlaceholders, siteConfig } from "@/lib/site";
 
-const accreditationPlaceholders = ["FMB", "TrustMark", "Insurance"];
-
 export function Footer() {
   return (
     <footer className="bg-charcoal text-white">
