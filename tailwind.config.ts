@@ -9,16 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        charcoal: "#151A18",
-        "warm-stone": "#F3F0E8",
-        "soft-taupe": "#CFC8BA",
+        charcoal: "#172033",
+        "warm-stone": "#F5F2EA",
+        "soft-taupe": "#D6D5CB",
         bronze: "#596B4A",
-        "muted-slate": "#66706A",
-        limestone: "#E7E1D3",
-        graphite: "#151A18",
+        "muted-slate": "#5F6B76",
+        limestone: "#ECE8DC",
+        graphite: "#172033",
         olive: "#596B4A",
-        sage: "#A8B09A",
-        chalk: "#FAF8F1",
+        sage: "#A6B39A",
+        chalk: "#FAF8F2",
+        navy: "#172033",
         white: "#FFFFFF",
       },
       fontFamily: {
@@ -26,8 +27,8 @@ const config: Config = {
         heading: ["var(--font-cormorant)", "Georgia", "serif"],
       },
       boxShadow: {
-        editorial: "0 28px 80px rgba(21, 26, 24, 0.14)",
-        fine: "0 16px 45px rgba(21, 26, 24, 0.08)",
+        editorial: "0 28px 80px rgba(23, 32, 51, 0.13)",
+        fine: "0 16px 45px rgba(23, 32, 51, 0.07)",
       },
     },
   },
