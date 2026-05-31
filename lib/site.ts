@@ -116,12 +116,7 @@ export const projects = [
     location: "Cheshire",
     description:
       "A complete kitchen refit concept with layout improvements, custom storage and warm lighting.",
-    features: [
-      "Quartz surfaces",
-      "Oak details",
-      "Lighting plan",
-      "Improved storage",
-    ],
+    features: ["Quartz surfaces", "Oak details", "Lighting plan", "Improved storage"],
     palette: "from-stone-200 via-warm-stone to-bronze/70",
   },
   {
@@ -157,12 +152,7 @@ export const projects = [
     location: "Knutsford",
     description:
       "A functional upgrade concept for a busy family home with durable finishes and fitted storage.",
-    features: [
-      "Fitted storage",
-      "Durable materials",
-      "Family layout",
-      "Practical finish",
-    ],
+    features: ["Fitted storage", "Durable materials", "Family layout", "Practical finish"],
     palette: "from-warm-stone via-soft-taupe to-bronze/50",
   },
 ];
@@ -226,39 +216,4 @@ export const trustCards = [
     description:
       "Large project cards and detail-led copy place the focus on workmanship, finishing touches and handover quality.",
   },
-];
-
-export const liveProofItems = [
-  {
-    label: "Verified reviews",
-    title: "Google reviews feed",
-    description:
-      "A live client version would connect to verified Google Business Profile reviews rather than using copied or invented testimonials.",
-  },
-  {
-    label: "Trade proof",
-    title: "Accreditations and insurance",
-    description:
-      "Memberships, insurance notes, guarantees and qualification logos should be shown only when supplied and verified by the real business.",
-  },
-  {
-    label: "Project evidence",
-    title: "Before-and-after library",
-    description:
-      "Premium renovation enquiries are easier to win when homeowners can see real rooms, real sequencing and detailed finish photography.",
-  },
-  {
-    label: "Performance",
-    title: "Fast image handling",
-    description:
-      "A high-value build should use carefully sized images, stable layouts and restrained features so the site feels smooth instead of cluttered.",
-  },
-];
-
-export const accreditationPlaceholders = ["FMB", "TrustMark", "Insurance"];
-
-export const photographyWorkflow = [
-  "Crop for composition",
-  "Colour-match finishes",
-  "Sequence before/after sets",
 ];

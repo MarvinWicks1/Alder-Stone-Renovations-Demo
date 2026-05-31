@@ -16,7 +16,7 @@ export default function Home() {
       <Hero />
       <DemoNotice />
 
-      <section className="reveal-on-scroll py-16">
+      <section className="py-16">
         <div className="container-shell">
           <SectionHeader
             eyebrow="Services overview"
@@ -78,8 +78,6 @@ export default function Home() {
         </div>
       </section>
 
-      <PremiumProof />
-
       <section className="py-16">
         <div className="container-shell grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="premium-card rounded-sm p-8 md:p-10">
@@ -87,15 +85,20 @@ export default function Home() {
               Example layout
             </p>
             <h2 className="mt-4 font-heading text-3xl font-semibold tracking-[-0.055em] md:text-5xl">
-              Verified review layout placeholder.
+              Review section placeholder.
             </h2>
             <p className="mt-5 text-base leading-7 text-muted-slate">
-              On a live client website, this section would pull verified
-              homeowner testimonials from Google where possible and pair them
-              with project photos, insurance notes, guarantees or genuine trade
-              qualifications. This demo intentionally avoids invented reviews or
-              claims.
+              On a live client website, this section would show real homeowner
+              testimonials, project photos and trust signals such as insurance,
+              guarantees or trade qualifications. This demo intentionally avoids
+              invented reviews or claims.
             </p>
+            <Link
+              href="/process"
+              className="mt-6 inline-flex rounded-none border border-soft-taupe bg-white px-6 py-3 text-sm font-semibold text-charcoal transition hover:border-bronze hover:text-bronze"
+            >
+              Learn about the process
+            </Link>
           </div>
           <div className="grid gap-4">
             {[

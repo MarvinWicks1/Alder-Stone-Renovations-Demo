@@ -9,7 +9,7 @@ const trustPoints = [
 
 export function Hero() {
   return (
-    <section className="reveal-on-scroll overflow-hidden pb-14 pt-12 md:pb-24 md:pt-20">
+    <section className="overflow-hidden pb-14 pt-12 md:pb-24 md:pt-20">
       <div className="container-shell grid items-center gap-12 lg:grid-cols-[1fr_0.92fr]">
         <div>
           <p className="w-fit rounded-none border border-bronze/25 bg-white/70 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-bronze">

@@ -10,7 +10,7 @@ export function CTASection({
   button?: string;
 }) {
   return (
-    <section className="reveal-on-scroll py-16 md:py-20">
+    <section className="py-16 md:py-20">
       <div className="container-shell overflow-hidden rounded-sm bg-charcoal text-white shadow-2xl shadow-charcoal/15">
         <div className="blueprint-panel px-6 py-12 text-center md:px-14 md:py-16">
           <p className="text-sm font-semibold uppercase tracking-[0.28em] text-soft-taupe">
