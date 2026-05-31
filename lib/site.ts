@@ -20,9 +20,9 @@ export const services = [
   {
     title: "Kitchen renovations",
     intro:
-      "For homeowners planning a better layout, more storage, improved lighting or a complete kitchen transformation.",
+      "For kitchens that need a better layout, more storage, improved lighting or a full refit.",
     description:
-      "A considered kitchen service page should show how planning, preparation, fitting and finishing are handled as one joined-up project.",
+      "We plan the work around how the room is actually used, then handle the preparation, fitting and finishing with the details agreed before work starts.",
     includes: [
       "Layout planning",
       "Removal and preparation",
@@ -35,9 +35,9 @@ export const services = [
   {
     title: "Bathroom fitting",
     intro:
-      "For homeowners who want a clean, practical and well-finished bathroom, en-suite or shower room.",
+      "Clean, practical bathrooms, en-suites and shower rooms with a proper finish.",
     description:
-      "Bathroom content is written around specification, waterproofing considerations, tiling detail and a tidy installation experience.",
+      "From strip-out to tiling and final fittings, the focus is on keeping the work tidy, the specification clear and the finished room easy to live with.",
     includes: [
       "Strip-out and preparation",
       "Tiling",
@@ -51,9 +51,9 @@ export const services = [
   {
     title: "Property refurbishments",
     intro:
-      "For larger updates where multiple rooms or areas need careful coordination.",
+      "For homes that need several rooms updated and the work properly coordinated.",
     description:
-      "A refurbishment page helps homeowners understand how sequencing, finishes, communication and disruption can be managed.",
+      "Refurbishment work can become messy without a plan. We agree the order of work, keep you updated and make sure each stage is finished properly before moving on.",
     includes: [
       "Room updates",
       "Flooring and finishing",
@@ -66,9 +66,9 @@ export const services = [
   {
     title: "Garage conversions",
     intro:
-      "For turning unused garage space into a home office, utility space, gym or additional living area.",
+      "Turn unused garage space into a room that feels warm, useful and part of the home.",
     description:
-      "Conversion content focuses on comfort, insulation, practical layouts and a finished room that feels part of the home.",
+      "Whether it becomes an office, gym, utility or extra living space, the work starts with comfort, insulation, access and a practical layout.",
     includes: [
       "Insulation",
       "Internal finishing",
@@ -81,9 +81,9 @@ export const services = [
   {
     title: "Bespoke joinery",
     intro:
-      "For fitted storage, utility areas, media walls, boot rooms and tailored finishing touches.",
+      "Fitted storage and finishing details made around the space, not forced into it.",
     description:
-      "Joinery sections add craft-led detail and show how tailored storage can raise the perceived value of renovation work.",
+      "Useful for boot rooms, alcoves, media walls, utility areas and awkward spaces where off-the-shelf furniture does not quite work.",
     includes: [
       "Fitted storage",
       "Utility and boot room details",
@@ -96,9 +96,9 @@ export const services = [
   {
     title: "Project management",
     intro:
-      "For homeowners who want a clearer schedule, better communication and one organised route through the project.",
+      "A clearer route through larger jobs, from first visit to final walkthrough.",
     description:
-      "Project management messaging reassures visitors that larger work can be planned, explained and progressed with clarity.",
+      "You get a written scope, agreed stages and regular updates, so you know what is happening and when decisions need to be made.",
     includes: [
       "Scope planning",
       "Written quotes",
@@ -116,7 +116,7 @@ export const projects = [
     type: "Kitchens",
     location: "Cheshire",
     description:
-      "A complete kitchen refit concept with layout improvements, custom storage and a calm natural-material palette.",
+      "A tired kitchen reworked with better storage, warmer materials and lighting that makes the room feel calmer in the evening.",
     features: ["Stone surfaces", "Oak details", "Lighting plan", "Improved storage"],
     palette: "from-limestone via-warm-stone to-olive/70",
   },
@@ -125,7 +125,7 @@ export const projects = [
     type: "Bathrooms",
     location: "Northwich",
     description:
-      "A full bathroom transformation concept with walk-in shower, vanity, tiling and layered lighting.",
+      "A small bathroom redesigned around a walk-in shower, a neater vanity area and darker finishes for a more settled feel.",
     features: ["Walk-in shower", "Large-format tiling", "Vanity unit", "Ambient lighting"],
     palette: "from-white via-limestone to-graphite/35",
   },
@@ -134,7 +134,7 @@ export const projects = [
     type: "Conversions",
     location: "Warrington",
     description:
-      "An unused garage converted in concept into a warm, quiet studio and utility space.",
+      "A cold garage turned into a useful studio space with insulation, storage and lighting suitable for everyday use.",
     features: ["Insulation", "Studio layout", "Utility storage", "Task lighting"],
     palette: "from-graphite/20 via-warm-stone to-sage/70",
   },
@@ -143,7 +143,7 @@ export const projects = [
     type: "Refurbishments",
     location: "Chester",
     description:
-      "A careful refurbishment concept balancing modern usability with existing architectural character.",
+      "A careful update to an older home, keeping the character while making the rooms easier to use day to day.",
     features: ["Joinery", "Decoration", "Room updates", "Character details"],
     palette: "from-soft-taupe via-white to-olive/30",
   },
@@ -152,7 +152,7 @@ export const projects = [
     type: "Joinery",
     location: "Knutsford",
     description:
-      "A functional upgrade concept for a busy family home with durable finishes and fitted storage.",
+      "A practical family space with fitted storage, durable finishes and somewhere for coats, shoes and laundry to live properly.",
     features: ["Fitted storage", "Durable materials", "Family layout", "Practical finish"],
     palette: "from-warm-stone via-limestone to-olive/55",
   },
@@ -160,39 +160,39 @@ export const projects = [
 
 export const processSteps = [
   {
-    title: "Project enquiry",
+    title: "Tell us about the job",
     description:
-      "The customer sends a short message with the type of project, location and rough timescale.",
+      "Send a few details about the room, the work you have in mind and where you are based.",
   },
   {
-    title: "Initial call",
+    title: "Quick call",
     description:
-      "A quick call checks the basics and confirms whether the project is a good fit.",
+      "We check the basics, answer early questions and decide whether a home visit is the right next step.",
   },
   {
     title: "Home visit",
     description:
-      "The business visits the property, looks at the space and discusses ideas, access and requirements.",
+      "We look at the space, talk through ideas, measure up and discuss access, timescales and practical details.",
   },
   {
     title: "Written quote",
     description:
-      "A clear written quote is provided so the homeowner understands the scope, assumptions and next steps.",
+      "You receive a clear written quote so you know what is included, what is assumed and what happens next.",
   },
   {
-    title: "Schedule and preparation",
+    title: "Dates and preparation",
     description:
-      "Dates, preparation and home protection are discussed before work starts.",
+      "We agree dates, order materials where needed and talk through how the home will be protected while work is underway.",
   },
   {
-    title: "Build phase",
+    title: "Work begins",
     description:
-      "The project is completed with regular updates and attention to keeping the work area as tidy and safe as possible.",
+      "The job is carried out with regular updates, tidy working habits and decisions raised before they become problems.",
   },
   {
     title: "Final walkthrough",
     description:
-      "The finished work is reviewed with the customer before handover.",
+      "We walk through the finished work together, check the details and make sure everything is left clean and ready to use.",
   },
 ];
 
@@ -200,22 +200,22 @@ export const trustCards = [
   {
     title: "Clear communication",
     description:
-      "Plain-English next steps, written scope notes and regular updates are positioned as part of the service experience.",
+      "You should know what is happening, when it is happening and what decisions are needed from you.",
   },
   {
     title: "Protected work areas",
     description:
-      "The design explains how a real renovation company could reassure homeowners about dust, access and daily tidy-down routines.",
+      "Dust, access and daily tidy-up routines are discussed before work starts, not after the disruption begins.",
   },
   {
     title: "Reliable schedules",
     description:
-      "Process-led content helps visitors understand timing, preparation and what happens before work starts.",
+      "Renovation work can change, but the plan should still be clear, realistic and updated when needed.",
   },
   {
     title: "Quality finishing",
     description:
-      "Large project cards and detail-led copy place the focus on workmanship, finishing touches and handover quality.",
+      "The final details matter: trims, joins, lighting, storage and how the room feels once it is back in use.",
   },
 ];
 
