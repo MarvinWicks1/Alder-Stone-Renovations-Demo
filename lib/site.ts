@@ -116,17 +116,8 @@ export const projects = [
     location: "Cheshire",
     description:
       "A complete kitchen refit concept with layout improvements, custom storage and warm lighting.",
-    features: [
-      "Quartz surfaces",
-      "Oak details",
-      "Lighting plan",
-      "Improved storage",
-    ],
+    features: ["Quartz surfaces", "Oak details", "Lighting plan", "Improved storage"],
     palette: "from-stone-200 via-warm-stone to-bronze/70",
-    image: {
-      src: "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=1200&q=80",
-      alt: "Stock photo of a warm modern kitchen with timber cabinetry and stone worktops",
-    },
   },
   {
     title: "Marble-Effect Bathroom Suite",
@@ -136,10 +127,6 @@ export const projects = [
       "A full bathroom transformation concept with walk-in shower, vanity, tiling and lighting.",
     features: ["Walk-in shower", "Tiling", "Vanity unit", "Ambient lighting"],
     palette: "from-white via-soft-taupe to-charcoal/30",
-    image: {
-      src: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80",
-      alt: "Stock photo of a bright bathroom with a vanity unit and walk-in shower styling",
-    },
   },
   {
     title: "Garage to Home Office Conversion",
@@ -149,10 +136,6 @@ export const projects = [
       "An unused garage converted in concept into a warm, clean home office and utility space.",
     features: ["Insulation", "Office layout", "Utility storage", "Lighting"],
     palette: "from-charcoal/20 via-warm-stone to-bronze/60",
-    image: {
-      src: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80",
-      alt: "Stock photo of a calm home office space suitable for a garage conversion concept",
-    },
   },
   {
     title: "Period Home Refurbishment",
@@ -162,10 +145,6 @@ export const projects = [
       "A careful refurbishment concept balancing modern usability with existing character.",
     features: ["Joinery", "Decoration", "Room updates", "Character details"],
     palette: "from-soft-taupe via-white to-charcoal/20",
-    image: {
-      src: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      alt: "Stock photo of a refined living space used to represent a period home refurbishment",
-    },
   },
   {
     title: "Utility Room & Boot Room",
@@ -173,17 +152,8 @@ export const projects = [
     location: "Knutsford",
     description:
       "A functional upgrade concept for a busy family home with durable finishes and fitted storage.",
-    features: [
-      "Fitted storage",
-      "Durable materials",
-      "Family layout",
-      "Practical finish",
-    ],
+    features: ["Fitted storage", "Durable materials", "Family layout", "Practical finish"],
     palette: "from-warm-stone via-soft-taupe to-bronze/50",
-    image: {
-      src: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80",
-      alt: "Stock photo of a practical fitted interior used to represent utility and boot room joinery",
-    },
   },
 ];
 
@@ -245,68 +215,5 @@ export const trustCards = [
     title: "Quality finishing",
     description:
       "Large project cards and detail-led copy place the focus on workmanship, finishing touches and handover quality.",
-  },
-];
-
-export const liveProofItems = [
-  {
-    label: "Verified reviews",
-    title: "Google reviews feed",
-    description:
-      "A live client version would connect to verified Google Business Profile reviews rather than using copied or invented testimonials.",
-  },
-  {
-    label: "Trade proof",
-    title: "Accreditations and insurance",
-    description:
-      "Memberships, insurance notes, guarantees and qualification logos should be shown only when supplied and verified by the real business.",
-  },
-  {
-    label: "Project evidence",
-    title: "Before-and-after library",
-    description:
-      "Premium renovation enquiries are easier to win when homeowners can see real rooms, real sequencing and detailed finish photography.",
-  },
-  {
-    label: "Performance",
-    title: "Fast image handling",
-    description:
-      "A high-value build should use carefully sized images, stable layouts and restrained features so the site feels smooth instead of cluttered.",
-  },
-];
-
-export const accreditationPlaceholders = [
-  "FMB",
-  "TrustMark",
-  "Insurance",
-] as const;
-
-export const photographyWorkflow = [
-  "Crop for composition",
-  "Colour-match finishes",
-  "Sequence before/after sets",
-];
-
-export const mockReviews = [
-  {
-    name: "Example homeowner",
-    location: "Cheshire",
-    project: "Kitchen renovation",
-    quote:
-      "The layout makes space for a verified Google review that mentions planning, tidy work and the final handover experience.",
-  },
-  {
-    name: "Example homeowner",
-    location: "Northwich",
-    project: "Bathroom fitting",
-    quote:
-      "This mock review demonstrates how a live site could pair homeowner feedback with project photography and proof of workmanship.",
-  },
-  {
-    name: "Example homeowner",
-    location: "Warrington",
-    project: "Garage conversion",
-    quote:
-      "On a real client build, this copy would be replaced by a verified review pulled from Google or supplied with permission.",
   },
 ];

@@ -8,7 +8,7 @@ export default function ProcessPage() {
   return (
     <>
       <DemoNotice compact />
-      <section className="reveal-on-scroll py-16 md:py-24">
+      <section className="py-16 md:py-24">
         <div className="container-shell grid gap-12 lg:grid-cols-[0.82fr_1.18fr] lg:items-start">
           <div className="lg:sticky lg:top-32">
             <SectionHeader
