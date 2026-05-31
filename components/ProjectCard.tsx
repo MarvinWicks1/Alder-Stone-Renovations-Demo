@@ -21,7 +21,7 @@ export function ProjectCard({
 }: ProjectCardProps) {
   return (
     <article className="group overflow-hidden border border-soft-taupe bg-white shadow-fine transition duration-300 hover:-translate-y-1 hover:shadow-editorial">
-      <div className={`relative h-80 overflow-hidden bg-gradient-to-br ${palette}`}>
+      <div className={`h-80 overflow-hidden bg-gradient-to-br ${palette}`}>
         {imageUrl ? (
           <img
             src={imageUrl}
@@ -29,19 +29,13 @@ export function ProjectCard({
             className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
           />
         ) : null}
-        <div className="absolute inset-0 bg-gradient-to-t from-charcoal/48 via-charcoal/6 to-transparent" />
-        <div className="absolute bottom-5 left-5 right-5 border border-white/35 bg-charcoal/58 p-5 text-white shadow-2xl backdrop-blur-[2px]">
-          <div className="flex items-center justify-between gap-4 text-xs font-semibold uppercase tracking-[0.22em] text-white/75">
-            <span>{type}</span>
-            <span>{location}</span>
-          </div>
-          <p className="mt-4 font-heading text-3xl font-bold leading-none tracking-[-0.035em] drop-shadow-lg">
-            {title}
-          </p>
-        </div>
       </div>
       <div className="p-6">
-        <p className="text-xs font-semibold uppercase tracking-[0.24em] text-olive">
+        <div className="flex items-center justify-between gap-4 text-xs font-semibold uppercase tracking-[0.24em] text-olive">
+          <span>{type}</span>
+          <span>{location}</span>
+        </div>
+        <p className="mt-5 text-xs font-semibold uppercase tracking-[0.24em] text-olive/75">
           Fictional example project
         </p>
         <h3 className="mt-3 font-heading text-3xl font-bold leading-none tracking-[-0.035em] text-charcoal">
