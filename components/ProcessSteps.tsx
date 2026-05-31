@@ -1,21 +1,32 @@
-export function ProcessSteps({ steps }: { steps: string[] }) {
+type Step = {
+  title: string;
+  description: string;
+};
+
+export function ProcessSteps({ steps }: { steps: Step[] }) {
   return (
-    <div className="grid gap-4">
+    <div className="relative grid gap-4">
+      <div
+        className="absolute bottom-8 left-6 top-8 hidden w-px bg-soft-taupe md:block"
+        aria-hidden="true"
+      />
       {steps.map((step, index) => (
-        <div key={step} className="premium-card flex gap-5 rounded-3xl p-5">
-          <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-charcoal text-sm font-semibold text-white">
+        <article
+          key={step.title}
+          className="premium-card relative flex gap-5 rounded-sm p-5"
+        >
+          <span className="z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-none bg-charcoal text-sm font-semibold text-white shadow-lg shadow-charcoal/10">
             {String(index + 1).padStart(2, "0")}
           </span>
           <div>
-            <h3 className="font-heading text-xl font-semibold tracking-[-0.04em]">
-              {step}
+            <h3 className="font-heading text-xl font-semibold tracking-[-0.045em] text-charcoal">
+              {step.title}
             </h3>
             <p className="mt-2 text-sm leading-6 text-muted-slate">
-              This demo step describes a clear homeowner experience without
-              claiming real delivery history or client outcomes.
+              {step.description}
             </p>
           </div>
-        </div>
+        </article>
       ))}
     </div>
   );
