@@ -5,11 +5,12 @@
 :root {
   --font-inter: Inter;
   --font-cormorant: "Cormorant Garamond";
-  --charcoal: #182028;
-  --warm-stone: #f6f2ea;
-  --soft-taupe: #d8d0c4;
-  --bronze: #8a6f3c;
-  --muted-slate: #58616b;
+  --charcoal: #151a18;
+  --warm-stone: #f3f0e8;
+  --soft-taupe: #cfc8ba;
+  --bronze: #596b4a;
+  --muted-slate: #66706a;
+  --limestone: #e7e1d3;
   --white: #ffffff;
 }
 
@@ -25,18 +26,19 @@ body {
   margin: 0;
   background:
     radial-gradient(
-      circle at 12% 0%,
-      rgba(138, 111, 60, 0.12),
-      transparent 30rem
-    ),
-    radial-gradient(
-      circle at 88% 8%,
-      rgba(24, 32, 40, 0.08),
+      circle at 10% 0%,
+      rgba(89, 107, 74, 0.13),
       transparent 28rem
     ),
-    linear-gradient(180deg, #fbf8f2 0%, var(--warm-stone) 48%, #eee7dc 100%);
+    radial-gradient(
+      circle at 90% 10%,
+      rgba(21, 26, 24, 0.11),
+      transparent 30rem
+    ),
+    linear-gradient(180deg, #faf8f1 0%, var(--warm-stone) 46%, #e8e1d5 100%);
   color: var(--charcoal);
   font-family: var(--font-inter), Arial, sans-serif;
+  line-height: 1.5;
 }
 
 body::before {
@@ -45,11 +47,11 @@ body::before {
   position: fixed;
   inset: 0;
   z-index: -1;
-  opacity: 0.22;
+  opacity: 0.16;
   background-image:
-    linear-gradient(90deg, rgba(24, 32, 40, 0.055) 1px, transparent 1px),
-    linear-gradient(rgba(138, 111, 60, 0.05) 1px, transparent 1px);
-  background-size: 96px 96px;
+    linear-gradient(90deg, rgba(21, 26, 24, 0.08) 1px, transparent 1px),
+    linear-gradient(rgba(21, 26, 24, 0.06) 1px, transparent 1px);
+  background-size: 120px 120px;
 }
 
 a {
@@ -69,41 +71,52 @@ textarea {
   color: var(--white);
 }
 
+:focus-visible {
+  outline: 3px solid rgba(89, 107, 74, 0.38);
+  outline-offset: 3px;
+}
+
 .container-shell {
   width: min(1180px, calc(100% - 32px));
   margin-inline: auto;
 }
 
 .premium-card {
-  border: 1px solid rgba(216, 208, 196, 0.88);
+  border: 1px solid rgba(207, 200, 186, 0.92);
   background: rgba(255, 255, 255, 0.82);
-  box-shadow: 0 20px 65px rgba(24, 32, 40, 0.08);
+  box-shadow: 0 22px 70px rgba(21, 26, 24, 0.09);
 }
 
 .material-swatch {
   background:
-    linear-gradient(135deg, rgba(24, 32, 40, 0.18), rgba(138, 111, 60, 0.2)),
+    linear-gradient(135deg, rgba(21, 26, 24, 0.22), rgba(89, 107, 74, 0.24)),
     repeating-linear-gradient(
       90deg,
-      rgba(255, 255, 255, 0.2) 0 8px,
-      rgba(24, 32, 40, 0.04) 8px 16px
+      rgba(255, 255, 255, 0.26) 0 9px,
+      rgba(21, 26, 24, 0.06) 9px 18px
     ),
-    var(--soft-taupe);
+    var(--limestone);
 }
 
 .blueprint-panel {
   background:
-    linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.055) 1px, transparent 1px),
     radial-gradient(
       circle at 18% 18%,
-      rgba(138, 111, 60, 0.4),
+      rgba(89, 107, 74, 0.34),
       transparent 16rem
     ),
-    #182028;
+    #151a18;
   background-size:
-    34px 34px,
-    34px 34px,
+    38px 38px,
+    38px 38px,
     auto,
     auto;
+}
+
+.editorial-rule {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(90deg, transparent, rgba(89, 107, 74, 0.7), transparent);
 }
