@@ -107,26 +107,3 @@ textarea {
     auto,
     auto;
 }
-
-.reveal-on-scroll {
-  animation: premium-reveal 700ms ease both;
-  animation-timeline: view();
-  animation-range: entry 0% cover 24%;
-}
-
-@keyframes premium-reveal {
-  from {
-    opacity: 0;
-    transform: translateY(18px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .reveal-on-scroll {
-    animation: none;
-  }
-}

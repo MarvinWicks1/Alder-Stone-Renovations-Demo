@@ -1,6 +1,8 @@
-import { liveProofItems, photographyWorkflow } from "@/lib/site";
-
-const accreditationPlaceholders = ["FMB", "TrustMark", "Insurance"];
+import {
+  accreditationPlaceholders,
+  liveProofItems,
+  photographyWorkflow,
+} from "@/lib/site";
 
 export function PremiumProof() {
   return (

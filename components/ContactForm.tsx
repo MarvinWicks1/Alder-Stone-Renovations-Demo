@@ -15,23 +15,6 @@ const budgets = [
   "Not sure yet",
 ];
 
-const timelines = [
-  "As soon as possible",
-  "1–3 months",
-  "3–6 months",
-  "6+ months",
-  "Just researching",
-];
-
-const referralSources = [
-  "Google search",
-  "Google reviews",
-  "Recommendation",
-  "Social media",
-  "Saw local work",
-  "Not sure",
-];
-
 const fieldClass =
   "rounded-sm border border-soft-taupe bg-white px-4 py-3 font-normal text-charcoal outline-none transition focus:border-bronze focus:ring-4 focus:ring-bronze/10";
 
@@ -100,28 +83,6 @@ export function ContactForm() {
             ))}
           </select>
         </label>
-        <label className="grid gap-2 text-sm font-semibold text-charcoal">
-          Rough timeline
-          <select name="timeline" className={fieldClass} defaultValue="">
-            <option value="" disabled>
-              Select a rough timeline
-            </option>
-            {timelines.map((timeline) => (
-              <option key={timeline}>{timeline}</option>
-            ))}
-          </select>
-        </label>
-        <label className="grid gap-2 text-sm font-semibold text-charcoal">
-          How did you hear about us?
-          <select name="referral-source" className={fieldClass} defaultValue="">
-            <option value="" disabled>
-              Select an option
-            </option>
-            {referralSources.map((source) => (
-              <option key={source}>{source}</option>
-            ))}
-          </select>
-        </label>
       </div>
       <label className="grid gap-2 text-sm font-semibold text-charcoal">
         Message
@@ -134,9 +95,8 @@ export function ContactForm() {
         />
       </label>
       <p className="rounded-sm bg-warm-stone p-4 text-xs leading-5 text-muted-slate">
-        Demo form only. On a live client site, this qualified enquiry flow would
-        connect to email, CRM or a booking workflow and help filter serious
-        renovation enquiries.
+        Demo form only. On a live client site, this would connect to email, CRM
+        or a booking workflow.
       </p>
       <button
         type="submit"
