@@ -3,6 +3,7 @@ import { CTASection } from "@/components/CTASection";
 import { DemoNotice } from "@/components/DemoNotice";
 import { DemoPhotoGallery } from "@/components/DemoPhotoGallery";
 import { Hero } from "@/components/Hero";
+import { PremiumProof } from "@/components/PremiumProof";
 import { ProcessSteps } from "@/components/ProcessSteps";
 import { ProjectCard } from "@/components/ProjectCard";
 import { SampleReviews } from "@/components/SampleReviews";
