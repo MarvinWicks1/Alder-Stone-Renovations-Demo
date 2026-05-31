@@ -5,10 +5,6 @@ type ProjectCardProps = {
   description: string;
   features?: string[];
   palette?: string;
-  image?: {
-    src: string;
-    alt: string;
-  };
 };
 
 export function ProjectCard({
@@ -18,32 +14,21 @@ export function ProjectCard({
   description,
   features = [],
   palette = "from-soft-taupe via-warm-stone to-bronze/60",
-  image,
 }: ProjectCardProps) {
   return (
     <article className="group overflow-hidden border border-soft-taupe bg-white shadow-[0_18px_60px_rgba(24,32,40,0.08)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_28px_80px_rgba(24,32,40,0.14)]">
       <div
         className={`relative h-80 overflow-hidden bg-gradient-to-br ${palette}`}
       >
-        {image ? (
-          <img
-            src={image.src}
-            alt={image.alt}
-            loading="lazy"
-            width={1200}
-            height={900}
-            className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105"
-          />
-        ) : null}
-        <div className="absolute inset-0 bg-gradient-to-t from-charcoal/85 via-charcoal/20 to-white/10" />
-        <div className="absolute inset-0 opacity-50 [background-image:linear-gradient(90deg,rgba(255,255,255,.22)_1px,transparent_1px),linear-gradient(rgba(255,255,255,.16)_1px,transparent_1px)] [background-size:42px_42px]" />
+        <div className="absolute inset-0 opacity-70 [background-image:linear-gradient(90deg,rgba(255,255,255,.26)_1px,transparent_1px),linear-gradient(rgba(255,255,255,.22)_1px,transparent_1px)] [background-size:42px_42px]" />
+        <div className="absolute inset-x-7 top-7 h-44 border border-white/50 bg-white/30 shadow-2xl shadow-charcoal/10 backdrop-blur-sm" />
         <div className="absolute bottom-7 left-7 right-7 border border-white/55 bg-charcoal/85 p-5 text-white backdrop-blur-sm">
           <div className="flex items-center justify-between gap-4 text-xs font-semibold uppercase tracking-[0.22em] text-white/65">
             <span>{type}</span>
             <span>{location}</span>
           </div>
           <p className="mt-4 font-heading text-3xl font-bold leading-none tracking-[-0.035em]">
-            Curated stock project image
+            Project photography placeholder
           </p>
         </div>
       </div>

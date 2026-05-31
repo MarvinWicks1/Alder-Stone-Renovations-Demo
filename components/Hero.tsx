@@ -9,7 +9,7 @@ const trustPoints = [
 
 export function Hero() {
   return (
-    <section className="reveal-on-scroll overflow-hidden pb-14 pt-12 md:pb-24 md:pt-20">
+    <section className="overflow-hidden pb-14 pt-12 md:pb-24 md:pt-20">
       <div className="container-shell grid items-center gap-12 lg:grid-cols-[1fr_0.92fr]">
         <div>
           <p className="w-fit rounded-none border border-bronze/25 bg-white/70 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-bronze">
@@ -67,36 +67,30 @@ export function Hero() {
                   </span>
                 </div>
                 <div className="my-8 grid gap-4 self-center">
-                  <div className="relative min-h-80 overflow-hidden rounded-sm border border-white/20">
-                    <img
-                      src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=80"
-                      alt="Stock photo of a premium open-plan renovated kitchen and living space"
-                      width={1400}
-                      height={1000}
-                      className="h-full min-h-80 w-full object-cover"
+                  <div className="grid grid-cols-[1.1fr_0.9fr] gap-4">
+                    <div
+                      className="material-swatch h-52 rounded-sm border border-white/20"
+                      aria-hidden="true"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-charcoal/60 via-transparent to-transparent" />
-                    <div className="absolute bottom-4 left-4 border border-white/30 bg-charcoal/75 px-4 py-3 text-xs font-semibold uppercase tracking-[0.2em] text-white/80 backdrop-blur-sm">
-                      Curated stock imagery
+                    <div className="rounded-sm border border-white/20 bg-white/10 p-4">
+                      <div className="h-16 rounded-sm bg-white/15" />
+                      <div className="mt-4 h-28 rounded-sm bg-bronze/40" />
                     </div>
                   </div>
                   <div className="grid grid-cols-3 gap-4">
-                    <div
-                      className="material-swatch h-24 rounded-sm border border-white/20"
-                      aria-hidden="true"
-                    />
-                    <div className="h-24 rounded-sm border border-white/20 bg-white/15" />
-                    <div className="h-24 rounded-sm border border-white/20 bg-bronze/35" />
+                    <div className="h-28 rounded-sm border border-white/20 bg-white/10" />
+                    <div className="h-28 rounded-sm border border-white/20 bg-white/15" />
+                    <div className="h-28 rounded-sm border border-white/20 bg-bronze/35" />
                   </div>
                 </div>
                 <div>
                   <p className="font-heading text-3xl font-semibold tracking-[-0.05em]">
-                    Stock imagery treatment for a real project gallery
+                    Joinery-led project photography placeholder
                   </p>
                   <p className="mt-3 max-w-md text-sm leading-6 text-white/70">
-                    Relevant stock photography is used here to show how the live
-                    project gallery would feel once replaced with genuine client
-                    images.
+                    A more architectural visual system for portfolio
+                    photography, finish samples and before-and-after stories on
+                    a live renovation website.
                   </p>
                 </div>
               </div>
