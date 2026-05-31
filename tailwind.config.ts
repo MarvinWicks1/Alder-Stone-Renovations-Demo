@@ -18,7 +18,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-inter)", "Arial", "sans-serif"],
-        heading: ["var(--font-lexend)", "Arial", "sans-serif"],
+        heading: ["var(--font-cormorant)", "Georgia", "serif"],
       },
     },
   },

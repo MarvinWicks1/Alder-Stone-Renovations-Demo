@@ -8,21 +8,21 @@ export default function ServicesPage() {
   return (
     <>
       <DemoNotice compact />
-      <section className="py-16 md:py-24">
+      <section className="reveal-on-scroll py-16 md:py-24">
         <div className="container-shell">
           <SectionHeader
-            eyebrow="Services"
-            title="Detailed demo service pages for premium renovation enquiries."
-            description="The cards below are fictional examples for kitchens, bathrooms, refurbishments, conversions, joinery and project management."
+            eyebrow="Renovation services"
+            title="From single-room upgrades to larger refurbishment projects."
+            description="The site should help homeowners understand each service and enquire with confidence. Each section below is demo content for a fictional Cheshire renovation company."
           />
-          <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-12 grid gap-6 md:grid-cols-2">
             {services.map((service) => (
               <ServiceCard key={service.title} {...service} />
             ))}
           </div>
         </div>
       </section>
-      <CTASection title="Turn service browsers into confident renovation enquiries." />
+      <CTASection />
     </>
   );
 }
