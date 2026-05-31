@@ -2,6 +2,7 @@ import Link from "next/link";
 import { CTASection } from "@/components/CTASection";
 import { DemoNotice } from "@/components/DemoNotice";
 import { Hero } from "@/components/Hero";
+import { PremiumProof } from "@/components/PremiumProof";
 import { ProcessSteps } from "@/components/ProcessSteps";
 import { ProjectCard } from "@/components/ProjectCard";
 import { SectionHeader } from "@/components/SectionHeader";
@@ -92,6 +93,12 @@ export default function Home() {
               guarantees or trade qualifications. This demo intentionally avoids
               invented reviews or claims.
             </p>
+            <Link
+              href="/process"
+              className="mt-6 inline-flex rounded-none border border-soft-taupe bg-white px-6 py-3 text-sm font-semibold text-charcoal transition hover:border-bronze hover:text-bronze"
+            >
+              Learn about the process
+            </Link>
           </div>
           <div className="grid gap-4">
             {[

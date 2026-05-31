@@ -7,14 +7,14 @@ export default function ContactPage() {
   return (
     <>
       <DemoNotice compact />
-      <section className="py-16 md:py-24">
+      <section className="reveal-on-scroll py-16 md:py-24">
         <div className="container-shell grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
           <div>
             <SectionHeader
               align="left"
               eyebrow="Request a project visit"
-              title="A quote-focused enquiry form for useful project details."
-              description="Use this demo form layout to show how a trade website can collect useful project details before the first conversation."
+              title="A qualified enquiry form for serious renovation projects."
+              description="Use this demo form layout to show how a premium trade website can qualify project type, budget, rough timeline and enquiry source before the first conversation."
             />
             <div className="mt-10 rounded-sm bg-charcoal p-6 text-white shadow-2xl shadow-charcoal/10">
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-soft-taupe">

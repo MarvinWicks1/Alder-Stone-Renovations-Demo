@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { siteConfig } from "@/lib/site";
+import { accreditationPlaceholders, siteConfig } from "@/lib/site";
 
 export function Footer() {
   return (
@@ -33,6 +33,25 @@ export function Footer() {
             <span>{siteConfig.phone}</span>
             <span>{siteConfig.area}</span>
           </div>
+        </div>
+        <div>
+          <p className="text-sm font-semibold uppercase tracking-[0.24em] text-soft-taupe">
+            Verified proof
+          </p>
+          <div className="mt-4 grid grid-cols-3 gap-2">
+            {accreditationPlaceholders.map((logo) => (
+              <span
+                key={logo}
+                className="border border-white/15 px-3 py-4 text-center text-[0.62rem] font-semibold uppercase tracking-[0.18em] text-white/65"
+              >
+                {logo}
+              </span>
+            ))}
+          </div>
+          <p className="mt-4 text-xs leading-5 text-white/55">
+            Placeholder logo positions only; live sites should show verified
+            memberships and guarantees.
+          </p>
         </div>
       </div>
       <div className="border-t border-white/10 py-5 text-center text-xs text-white/55">

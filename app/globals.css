@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 :root {
+  --font-inter: Inter;
+  --font-cormorant: "Cormorant Garamond";
   --charcoal: #182028;
   --warm-stone: #f6f2ea;
   --soft-taupe: #d8d0c4;

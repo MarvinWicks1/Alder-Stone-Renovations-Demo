@@ -16,7 +16,7 @@ export default function ProjectsPage() {
   return (
     <>
       <DemoNotice compact />
-      <section className="py-16 md:py-24">
+      <section className="reveal-on-scroll py-16 md:py-24">
         <div className="container-shell">
           <SectionHeader
             eyebrow="Example renovation projects"
