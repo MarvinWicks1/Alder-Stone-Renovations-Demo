@@ -15,10 +15,11 @@ export function SectionHeader({
         align === "center" ? "mx-auto max-w-3xl text-center" : "max-w-3xl"
       }
     >
-      <p className="text-sm font-semibold uppercase tracking-[0.28em] text-bronze">
+      <div className={align === "center" ? "mx-auto mb-5 h-px w-24 bg-olive/40" : "mb-5 h-px w-24 bg-olive/40"} aria-hidden="true" />
+      <p className="text-xs font-semibold uppercase tracking-[0.32em] text-olive">
         {eyebrow}
       </p>
-      <h2 className="mt-3 font-heading text-4xl font-bold leading-[0.95] tracking-[-0.035em] text-charcoal md:text-6xl">
+      <h2 className="mt-4 font-heading text-4xl font-bold leading-[0.98] tracking-[-0.035em] text-charcoal md:text-6xl">
         {title}
       </h2>
       {description ? (

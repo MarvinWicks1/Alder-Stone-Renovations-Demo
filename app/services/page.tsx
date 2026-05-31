@@ -11,9 +11,9 @@ export default function ServicesPage() {
       <section className="reveal-on-scroll py-16 md:py-24">
         <div className="container-shell">
           <SectionHeader
-            eyebrow="Renovation services"
-            title="From single-room upgrades to larger refurbishment projects."
-            description="The site should help homeowners understand each service and enquire with confidence. Each section below is demo content for a fictional Cheshire renovation company."
+            eyebrow="Services"
+            title="Kitchens, bathrooms, refurbishments and fitted details."
+            description="Some projects are simple. Others need several trades, careful timing and decisions made in the right order. These are the main types of work this kind of renovation site would make clear."
           />
           <div className="mt-12 grid gap-6 md:grid-cols-2">
             {services.map((service) => (

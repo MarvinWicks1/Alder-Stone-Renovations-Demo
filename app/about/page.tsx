@@ -19,24 +19,16 @@ export default function AboutPage() {
         <div className="container-shell grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <SectionHeader
             align="left"
-            eyebrow="About Alder & Stone Renovations"
-            title="A fictional demo brand with a more renovation-led identity."
-            description="The brand direction now feels closer to a calm, craft-led Cheshire renovation company instead of feeling like a generic portfolio template."
+            eyebrow="About"
+            title="A quieter approach to home renovation."
+            description="Good renovation work is not just about the finish. It is about planning properly, communicating clearly and keeping the work organised from start to handover."
           />
           <div className="premium-card rounded-sm p-8 text-base leading-8 text-muted-slate md:p-10">
             <p>
-              Alder & Stone Renovations is a fictional demo brand created by
-              VCUK Web Services to show how a premium local trade website could
-              be structured. The layout is designed around the kind of
-              information homeowners look for before choosing a renovation
-              company: clear services, project examples, process, trust signals
-              and simple enquiry routes.
+              Alder & Stone Renovations is presented as a small Cheshire renovation company focused on kitchens, bathrooms, refurbishments and fitted details. The tone is calm, practical and centred on the questions homeowners usually have before starting a larger project.
             </p>
             <p className="mt-5">
-              The concept uses warm materials, architectural spacing, crafted
-              placeholder visuals and transparent demo labelling so the site can
-              demonstrate premium website building without pretending to be a
-              real client project.
+              The site keeps the focus on clear services, realistic project examples, the working process and the kind of proof a homeowner would expect to see before making an enquiry.
             </p>
             <div className="mt-8 grid gap-3 sm:grid-cols-2">
               {values.map((value) => (
