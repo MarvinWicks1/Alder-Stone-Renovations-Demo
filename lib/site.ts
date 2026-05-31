@@ -159,6 +159,16 @@ export const projects = [
 ];
 
 export const processSteps = [
+  { title: "Project enquiry", description: "The customer sends a short message with the type of project, location and rough timescale." },
+  { title: "Initial call", description: "A quick call checks the basics and confirms whether the project is a good fit." },
+  { title: "Home visit", description: "The business visits the property, looks at the space and discusses ideas, access and requirements." },
+  { title: "Written quote", description: "A clear written quote is provided so the homeowner understands the scope, assumptions and next steps." },
+  { title: "Schedule and preparation", description: "Dates, preparation and home protection are discussed before work starts." },
+  { title: "Build phase", description: "The project is completed with regular updates and attention to keeping the work area as tidy and safe as possible." },
+  { title: "Final walkthrough", description: "The finished work is reviewed with the customer before handover." },
+];
+
+export const trustCards = [
   {
     title: "Tell us about the job",
     description:
@@ -179,6 +189,11 @@ export const processSteps = [
     description:
       "You receive a clear written quote so you know what is included, what is assumed and what happens next.",
   },
+];
+
+export const accreditationPlaceholders = ["FMB", "TrustMark", "Insurance"];
+
+export const demoPhotoGallery = [
   {
     title: "Dates and preparation",
     description:
@@ -196,7 +211,7 @@ export const processSteps = [
   },
 ];
 
-export const trustCards = [
+export const sampleReviews = [
   {
     title: "Clear communication",
     description:

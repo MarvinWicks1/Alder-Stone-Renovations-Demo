@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { CTASection } from "@/components/CTASection";
 import { DemoNotice } from "@/components/DemoNotice";
+import { DemoPhotoGallery } from "@/components/DemoPhotoGallery";
 import { Hero } from "@/components/Hero";
-import { PremiumProof } from "@/components/PremiumProof";
 import { ProcessSteps } from "@/components/ProcessSteps";
 import { ProjectCard } from "@/components/ProjectCard";
+import { SampleReviews } from "@/components/SampleReviews";
 import { SectionHeader } from "@/components/SectionHeader";
 import { ServiceCard } from "@/components/ServiceCard";
 import { TrustCards } from "@/components/TrustCards";
@@ -45,6 +46,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <DemoPhotoGallery />
 
       <section className="py-16">
         <div className="container-shell grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
