@@ -57,42 +57,35 @@ export function Hero() {
         <div className="relative">
           <div className="absolute -left-8 -top-8 h-44 w-44 bg-olive/15 blur-3xl" aria-hidden="true" />
           <div className="premium-card relative overflow-hidden p-4">
-            <div className="blueprint-panel min-h-[560px] overflow-hidden p-5 text-white">
-              <div className="grid h-full min-h-[520px] grid-rows-[auto_1fr_auto] border border-white/15 bg-white/5 p-5 backdrop-blur-sm">
+            <div className="relative min-h-[560px] overflow-hidden bg-charcoal text-white">
+              <img
+                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80"
+                alt="Calm renovated home interior with warm materials and natural light"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-charcoal/88 via-charcoal/28 to-charcoal/10" />
+              <div className="relative grid min-h-[560px] grid-rows-[auto_1fr_auto] border border-white/15 p-5">
                 <div className="flex items-center justify-between gap-4">
                   <span className="bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-charcoal">
                     Kitchen refit
                   </span>
-                  <span className="text-xs uppercase tracking-[0.24em] text-white/60">
+                  <span className="text-xs uppercase tracking-[0.24em] text-white/72">
                     Cheshire
                   </span>
                 </div>
-                <div className="my-8 grid gap-4 self-center">
-                  <div className="grid grid-cols-[1.05fr_0.95fr] gap-4">
-                    <div
-                      className="material-swatch h-56 border border-white/20"
-                      aria-hidden="true"
-                    />
-                    <div className="border border-white/20 bg-white/10 p-4">
-                      <div className="h-16 bg-white/15" />
-                      <div className="mt-4 h-32 bg-olive/45" />
-                    </div>
+                <div className="my-8 self-center">
+                  <div className="max-w-sm border border-white/20 bg-white/10 p-5 backdrop-blur-sm">
+                    <p className="text-xs font-semibold uppercase tracking-[0.24em] text-white/65">
+                      Featured visual
+                    </p>
+                    <p className="mt-3 font-heading text-4xl font-semibold leading-none tracking-[-0.05em]">
+                      Natural materials, better storage and softer lighting.
+                    </p>
                   </div>
-                  <div className="grid grid-cols-3 gap-4">
-                    <div className="h-28 border border-white/20 bg-white/10" />
-                    <div className="h-28 border border-white/20 bg-white/15" />
-                    <div className="h-28 border border-white/20 bg-sage/35" />
-                  </div>
-                  <div className="editorial-rule" />
                 </div>
-                <div>
-                  <p className="font-heading text-3xl font-semibold tracking-[-0.05em]">
-                    Natural materials, better storage and softer lighting.
-                  </p>
-                  <p className="mt-3 max-w-md text-sm leading-6 text-white/70">
-                    A visual area like this can show the quality of the finish before a visitor reads through the details.
-                  </p>
-                </div>
+                <p className="max-w-md text-sm leading-6 text-white/75">
+                  A premium homepage needs a strong image-led first impression, especially for renovation and home improvement work.
+                </p>
               </div>
             </div>
           </div>
